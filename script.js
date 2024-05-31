@@ -26,7 +26,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
   
       // Populate table with data
       for (let i = 1; i < lines.length; i++) {
-        const rowData = lines[i].split(',') | lines[i].split(";");
+        const rowData = lines[i].split(',');
         if (rowData.length === headers.length) {
           const row = document.createElement('tr');
           rowData.forEach(cellData => {
