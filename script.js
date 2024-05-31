@@ -47,18 +47,9 @@ function addFileButton(){
     document.getElementById("fileInput").style = "opacity: 100"
 }
 
-let sum = 0;
+
 function changeTheme(){
-    let sum2 = sum
-    let main = document.getElementById("main");
-    
-    if (sum === sum2) {
-        main.style = "background-color: black "
-    }
-    else if (sum !== sum2){
-        main.style = "background-color: white"
-    }
-    sum++
-    
-    
+  let main = document.getElementById("main");
+  main.style = "background-color: rgba(0, 0 , 0, .5);"
+      
 }
