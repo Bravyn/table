@@ -50,6 +50,6 @@ function addFileButton(){
 
 function changeTheme(){
   let main = document.getElementById("main");
-  main.style = "background-color: rgba(0, 0 , 0, .5);"
+  main.style = "background-color: rgba(255, 255, 255, .5);"
       
 }
