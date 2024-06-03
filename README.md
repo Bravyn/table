@@ -1,5 +1,3 @@
-# Dt (DroidTable)
-
 # dT (DroidTable)
 
 Welcome to dT (DroidTable), a lightweight, customizable table library built with vanilla JavaScript, CSS, and HTML. dT aims to provide a simple yet powerful solution for creating and managing tables in web applications. Whether you're displaying data, building a dashboard, or creating an admin panel, dT can streamline your table management process.
